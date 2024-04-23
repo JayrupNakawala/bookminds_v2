@@ -1,7 +1,7 @@
 :root{
-  --primary-color: #d0e37fff;
-  --secondary-color: #4f3824ff;
-  --tertiary-color: #d1603dff;
-  --accent-color: #ddb967ff;
-  --background-color: #221d23ff;
+  --green: #d0e37fff;
+  --brown: #4f3824ff;
+  --orange: #d1603dff;
+  --gold: #ddb967ff;
+  --black: #221d23ff;
 }
