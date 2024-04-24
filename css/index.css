@@ -1,5 +1,4 @@
 @import 'default.css';
-@import 'navbar.css';
 @import url('https://fonts.googleapis.com/css2?family=Platypi:ital,wght@0,300..800;1,300..800&display=swap');
 
 body {
@@ -73,14 +72,14 @@ body {
 .subheading_container {
   display: flex;
   align-items: center;
-  height: 55vh;
+  height: 58vh;
   background-color: var(--black);
 }
 
 .subheading_text {
   display: flex;
   flex-direction: column;
-  padding: 4vw;
+  padding: 2vw;
   font-size: 1.7vw;
 }
 
