@@ -85,17 +85,56 @@ body {
   height: 40vh;
 }
 
-.carasol p {
-  color: var(--gold)
-  display: inline-block;
-  padding-left: 100%;
-  animation: marquee 15s linear infinite;
+.quotes_container {
+  display: flex;
+  align-items: center;
+  width: 100vw; /* Adjust width as needed */
+  height: 40vh;
+  overflow: hidden;
+  white-space: nowrap; /* Prevent line breaks */
+  margin: 10px; /* Optional margin */
 }
 
-@keyframes marquee {
-0%   { transform: translate(0, 0); }
-100% { transform: translate(-100%, 0); }
+.quotes_container .quote {
+  animation: marquee 20s linear infinite; /* Animation properties */
+  width: fit-content; /* Content width exceeds container */
+  margin: 0; /* Remove margin */
+  color: #fff; /* Optional text color */
 }
+
+.quote {
+  padding: 0 2vw 0 2vw;
+  font-size: 2vw;
+}
+
+
+@keyframes marquee {
+  0% { transform: translateX(100%); } /* Start from right side */
+ 100% { transform: translateX(-100%); } /* Scroll to left side */
+}
+
+.why_we_love_reading {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.why_we_love_reading .content {
+  display: flex;
+  align-items: center;
+}
+
+.why_we_love_reading .content p {
+  padding: 2vw;
+  font-size: 1.4vw;
+}
+
+.why_we_love_reading img {
+  height: 40vh;
+}
+
+
 
 
 
