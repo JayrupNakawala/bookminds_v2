@@ -10,7 +10,6 @@ h1 {
   font-family: "Platypi", serif;
   font-weight: 700;
   color: var(--green);
-  padding: 2vw;
 }
 
 /* footer section */
@@ -20,6 +19,7 @@ hr {
 }
 
 .footer_container {
+  background-color: var(--orange);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -27,10 +27,11 @@ hr {
 
 .footer_container a {
   text-decoration: none;
-  color: var(--primary-color);
+  color: var(--black);
 }
 
 .footer_container p {
+  color: var(--black);
   font-size: 16px;
 }
 
@@ -40,6 +41,7 @@ hr {
 }
 
 .sites {
+  color: var(--black);
   padding: 2vh;
 }
 

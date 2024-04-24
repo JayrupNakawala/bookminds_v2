@@ -8,6 +8,7 @@ nav {
   height: 5vh;
   top: 0;
   left: 0;
+  background-color: rgba(0, 0, 0, 0.3);
   backdrop-filter: blur(5px);
   z-index: 999;
 }
@@ -22,13 +23,13 @@ nav {
   /* padding: 1vh 2vw 0.4vh; */
   /*   text-shadow: 0 0 10px rgb(255,255,255); */
   /* border-radius: 10px;*/
-  color: var(--orange);
+  color: var(--green);
   /*border: solid 2px var(--accent-color);*/
   transition: all ease-in-out 0.3s;
 }
 
 .btn:hover {
-  color: var(--gold);
+  color: white;
 }
 
 .left_half {
