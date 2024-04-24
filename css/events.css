@@ -1,0 +1,49 @@
+@import 'default.css';
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  background-color: var(--black);
+  font-family: "Platypi", serif;
+  font-optical-sizing: auto;
+  margin: 0;
+  padding: 0;
+  color: var(--gold);
+  overflow-x: hidden;
+}
+
+
+
+/* FROM V1 */
+.h1 {
+  font-size: 5vw;
+  padding: 11vh 0 0 2vw;
+}
+
+.top {
+  display: flex;
+}
+
+.why_events {
+  padding: 2vw;
+}
+
+.why_events ul {
+  color: var(--green);
+  font-size: 2vh;
+  padding-left: 3vh;
+}
+
+.main_image {
+  padding: 2vw;
+}
+/* FROM V1 */
+
+.main_image img {
+  height: 40vh;
+}
+
