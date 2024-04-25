@@ -80,7 +80,7 @@ nav {
 
 /* FOOTER CONTAINER */
 .footer_container {
-  background-color: var(--orange);
+  background-color: var(--brown);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -88,11 +88,11 @@ nav {
 
 .footer_container a {
   text-decoration: none;
-  color: var(--black);
+  color: var(--gold);
 }
 
 .footer_container p {
-  color: var(--black);
+  color: var(--gold);
   font-size: 16px;
 }
 
@@ -102,7 +102,7 @@ nav {
 }
 
 .sites {
-  color: var(--black);
+  color: var(--gold);
   padding: 2vh;
 }
 
