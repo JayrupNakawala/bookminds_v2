@@ -47,3 +47,30 @@ body {
   height: 40vh;
 }
 
+.hero_container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 60vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../media/events.jpg") center center;
+  background-size: cover;
+}
+
+.main_heading {
+  font-family: "Platypi", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 8vw;
+  color: var(--gold);
+  padding: 11vh 0 0 10vw;
+}
+
+.hero_container .buttons {
+  padding: 2vh 0 0 10vw;
+}
+
+.hero_container .btn {
+  padding: 0 2vw 0 0;
+}
