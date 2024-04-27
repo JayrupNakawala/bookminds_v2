@@ -6,6 +6,15 @@
   --black: #221d23ff;
 }
 
+body {
+  font-family: "Platypi", serif;
+  font-optical-sizing: auto;
+  margin: 0;
+  padding: 0;
+  color: var(--gold);
+  overflow-x: hidden;
+}
+
 h1 {
   font-family: "Platypi", serif;
   font-weight: 700;
