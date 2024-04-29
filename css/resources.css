@@ -60,6 +60,10 @@
   padding: 1.6vw;
 }
 
+th, td {
+  border: 1px solid var(--gold);
+}
+
 td {
   text-align: center;
   /* border: 1px solid var(--gold); */
@@ -72,4 +76,8 @@ td {
 
 table img {
   height: 20vw;
+}
+
+.checked {
+  color: orange;
 }
