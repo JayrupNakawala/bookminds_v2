@@ -29,7 +29,7 @@ body {
 .hero_container h2 {
   /* setting margin 0 again because h1 and h2 has inbuilt margin */
   margin: 0;
-  font-size: 3vw;
+  font-size: 4vw;
   padding: 2vw;
   color: var(--gold);
   /* text-decoration: none; */
@@ -52,16 +52,16 @@ body {
 .middle_container {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
 }
 
 .middle_container img {
-  height: 30vh;
+  height: 40vh;
   padding: 2vw;
 }
 
 .middle_container .text {
-  padding-left: 2vw;
+  padding: 2vw;
 }
 
 .middle_container p {
@@ -78,9 +78,15 @@ body {
 }
 
 .donate {
+  background-color: var(--gold);
   padding: 2vw;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
+}
+
+.donate h2 {
+  font-size: 2.5vw;
+  color: var(--black);
 }
 
 .donate ul {
@@ -89,6 +95,29 @@ body {
 
 
 .donate li {
-  font-size: 1.5vw;
+  color: var(--black);
+  font-size: 1.8vw;
   margin: 0 0 0 4vw;
 }
+
+.donate .payment{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.donate h3 {
+  font-size: 2.5vw;
+  color: var(--black);
+}
+
+.payment input {
+  width: 15vw;
+  background-color: var(--gold);
+  border: 1px solid var(--black);
+  border-radius: 5px;
+  text-align: center;
+  font-size: 2vw;
+  color: var(--black);
+}
+

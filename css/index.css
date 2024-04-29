@@ -72,17 +72,21 @@ body {
 .subheading_container {
   display: flex;
   align-items: center;
-  height: 58vh;
+  height: 55vh;
   background-color: var(--black);
 }
 
 .subheading_text {
   display: flex;
   flex-direction: column;
-  padding: 2vw;
+  padding: 0 2vw;
   font-size: 1.7vw;
 }
 
+.subheading_text h1 {
+  margin: 0;
+  padding-bottom: 2vw;
+}
 .subheading_container img {
   height: 40vh;
   padding: 2vw;

@@ -21,7 +21,7 @@ body {
   flex-direction: column;
   align-items: flex-start;
   height: 60vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+  background: linear-gradient( to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)),
     url("../media/events.jpg") center center;
   background-size: cover;
 }
@@ -36,12 +36,8 @@ body {
   padding: 11vh 0 0 10vw;
 }
 
-.hero_container .buttons {
-  padding: 4vh 0 0 10vw;
-}
-
 .hero_container .btn {
-  padding: 0 2vw 0 0;
+  padding: 3vh 0 0 10vw;
 }
 
 
