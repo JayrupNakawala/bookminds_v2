@@ -1,1 +1,75 @@
 @import 'default.css';
+
+
+.hero_container {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)),
+    url("../media/resources.jpg") center center;
+  background-size: cover;
+  flex-direction: column;
+  display: flex;
+  align-items: flex-start;
+}
+
+.hero_container a {
+  padding: 0 0 4vw 10vw;
+}
+
+.subheading_container {
+  background-color: var(--black);
+  display: flex;
+  height: 17vh;
+  font-size: 2vw;
+  align-items: center;
+  justify-content: center;
+}
+
+.subheading_container a {
+  text-decoration: none;
+  color: var(--gold);
+  transition: color .2s ease-in-out;
+}
+
+.subheading_container a:hover {
+  color: white;
+}
+
+.getting_started {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 2vw;
+  background-color: var(--brown);
+}
+
+.getting_started_text {
+  padding: 2vw;
+  font-size: 2vw;
+  color: var(--green);
+}
+
+.getting_started img {
+  height: 40vh;
+}
+
+.recommendations {
+  font-size: 2vw;
+  display: flex;
+  background-color: var(--black);
+  flex-direction: column;
+  align-items: center;
+  padding: 1.6vw;
+}
+
+td {
+  text-align: center;
+  /* border: 1px solid var(--gold); */
+}
+
+.recommendations table {
+  /* border-collapse: collapse; */
+  width: 90%;
+}
+
+table img {
+  height: 20vw;
+}

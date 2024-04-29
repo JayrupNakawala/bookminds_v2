@@ -7,6 +7,105 @@
     <link href="css/resources.css" rel="stylesheet">
   </head>
   <body>
-    
+
+    <!-- nav bar -->
+    <nav>
+      <div class="left_half">
+        <a class="btn" href="/index.html">Bookminds</a>
+        <a class="btn" href="/about.html">About</a>
+        <a class="btn" href="/contact.html">Contact</a>
+      </div>
+      <div class="right_half">
+        <a class="btn" href="/donate.html">Donate</a>
+        <a class="btn" href="/resources.html">Resources</a>
+        <a class="btn" href="/events.html">Events</a>
+      </div>
+    </nav>
+
+    <div class="reading-progress">
+      <div class="reading-progress-bar" style="width: 0%;"></div>
+    </div>
+
+    <!-- Hero Section -->
+    <div class="hero_container">
+      <div class='heading_text'>
+        <h1>Resources</h1>
+        <h2>To get you</h2>
+        <h2>Started</h2>
+      </div>
+      <a href="#recommendations" class='btn smooth_scroll'>Check our Recommendations</a>
+    </div>
+
+    <!-- Sub-heading section -->
+    <div class="subheading_container">
+      <div class="subheading_text">
+      To help you get started, we have some <a href="#recommendations" class="smooth_scroll"> Recommendations</a> and other <a href="#resources" class="smooth_scroll"> Resources</a> listed below, feel free to check them out!
+      </div>
+    </div>
+
+    <!-- Getting started Section -->
+    <div class="getting_started">
+      <img src="media/book_stack.jpg" alt="books stacked on top of each other">
+      <div class="getting_started_text">
+      Feeling overwhelmed by the vast world of books? Don't worry, everyone starts somewhere! Here's a simple tip to get you going: think about what you enjoy in movies or TV shows. Do you love a good mystery? A thrilling adventure? Heartfelt stories about relationships? There's a book out there for every taste.
+      </div>
+    </div>
+
+    <!-- Recommendations Section -->
+    <div class="recommendations" id="recommendations">
+      <h1>Recommendations</h1>
+      <table>
+        <tr>
+          <th>Book</th>
+          <th>Information</th>
+          <th>Summary</th>
+          <th>Stars</th>
+        </tr>
+        <tr>
+          <td><img src="https://i2.wp.com/geekdad.com/wp-content/uploads/2013/02/HP1-Kibuishi.jpg" alt=""></td>
+          <td>Harry Potter and the Philosopher's Stone</td>
+          <td>The story centers around Harry, an ordinary boy who discovers he's a wizard.</td>
+          <td>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span></td>
+      </table>
+    </div>
+
+		<!-- Footer Section -->
+		<footer>
+			<div class='footer_container'>
+				<!-- Social Media Icons -->
+				<div class='socials'>
+					<a href='https://facebook.com'>
+						<img src="./media/socials/outlined/facebook.svg" alt="facebook">
+					</a>
+					<a href='https://instagram.com'>
+						<img src="./media/socials/outlined/instagram.svg" alt="instagram">
+					</a>
+					<a href='https://youtube.com'>
+						<img src="./media/socials/outlined/youtube.svg" alt="youtube">
+					</a>
+					<a href='https://x.com'>
+						<img src="./media/socials/outlined/twitterx.svg" alt="twitterx">
+					</a>
+				</div>
+
+				<!-- Links -->
+				<div class='sites'>
+					<a href="#">Legal</a> | <a href="#">Privacy</a> | <a href="#">Contact</a> | <a href="#">About us</a>
+				</div>
+
+				<!-- Credits -->
+				<p>Icons by <a target="_blank" href="https://icons8.com">Icons8</a> | Copyright © BOOKMINDS 2023</p>
+			</div>
+		</footer>
+    <!-- JAVASCRIPTS -->
+    <script src="js/progress_bar.js"></script>
+    <script src="./js/smooth_scroll.js"></script>
   </body>
 </html>

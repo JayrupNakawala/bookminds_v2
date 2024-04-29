@@ -121,3 +121,6 @@ body {
   color: var(--black);
 }
 
+.payment input:placeholder {
+  color: var(--green);
+}
