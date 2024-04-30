@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Resources</title>
     <link href="css/resources.css" rel="stylesheet">
+    <!-- css for star rating for recommendations -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
 
@@ -55,24 +57,53 @@
     <div class="recommendations" id="recommendations">
       <h1>Recommendations</h1>
       <table>
+
         <tr>
           <th>Book</th>
           <th>Information</th>
           <th>Summary</th>
           <th>Stars</th>
         </tr>
+
         <tr>
           <td><img src="https://i2.wp.com/geekdad.com/wp-content/uploads/2013/02/HP1-Kibuishi.jpg" alt="Harry Potter Cover Page"></td>
-          <td>Harry Potter and the Philosopher's Stone</td>
+          <td>Harry Potter and the Philosopher's Stone<br> (Fiction, Fantasy, Coming of age)</td>
           <td>The story centers around Harry, an ordinary boy who discovers he's a wizard.</td>
           <td width="20%">
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+          </td>
+        </tr>
 
+        <tr>
+          <td><img src="https://media.shortform.com/covers/png/atomic-habits-cover@8x.png" alt="Atomic Habits cover page"></td>
+          <td>Atomic Habits<br> (Non-Fiction, Self-help)</td>
+          <td>Atomic Habits by James Clear argues that small, incremental changes in habits can lead to remarkable results over time.</td>
+          <td width="20%">
             <span class="fa fa-star checked"></span>
             <span class="fa fa-star checked"></span>
             <span class="fa fa-star checked"></span>
             <span class="fa fa-star checked"></span>
-            <span class="fa fa-star"></span></td>
+            <span class="fa fa-star"></span>
+          </td>
+        </tr>
+
+        <tr>
+          <td><img src="https://hachette.imgix.net/books/9781444720723.jpg" alt="The Shining cover page"></td>
+          <td>The Shining<br> (Fiction, Horror)</td>
+          <td>In Stephen King's The Shining, a family isolated in a haunted hotel with a psychic son battles the evil lurking within.</td>
+          <td width="20%">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+          </td>
+        </tr>
+
       </table>
     </div>
 
