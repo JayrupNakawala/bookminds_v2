@@ -99,9 +99,11 @@ hr {
 .resources td {
   padding: 1vw;
 }
+
 .resources a {
   text-decoration: none;
   color: var(--gold);
+  transition: hover .2s ease-in-out;
 }
 
 .resources a:hover {
