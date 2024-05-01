@@ -1,5 +1,9 @@
 @import 'default.css';
 
+body {
+  background-color: var(--black);
+}
+
 
 .hero_container {
   background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)),
@@ -24,7 +28,7 @@
 }
 
 .subheading_container a {
-  text-decoration: none;
+  text-decoration: underline;
   color: var(--gold);
   transition: color .2s ease-in-out;
 }
@@ -60,17 +64,12 @@
   padding: 1.6vw;
 }
 
-th{
-  padding-bottom: 3vh;
-  /* border: 1px solid var(--gold); */
-}
-
 td {
   text-align: center;
   /* border: 1px solid var(--gold); */
 }
 
-.recommendations table {
+table {
   /* border-collapse: collapse; */
   width: 90%;
 }
@@ -81,4 +80,30 @@ table img {
 
 .checked {
   color: orange;
+}
+
+hr {
+  width: 90%;
+  border: 1px solid var(--gold);
+}
+
+.resources {
+  padding: 2vw;
+  font-size: 2vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--black);
+}
+
+.resources td {
+  padding: 1vw;
+}
+.resources a {
+  text-decoration: none;
+  color: var(--gold);
+}
+
+.resources a:hover {
+  text-decoration: underline;
 }
