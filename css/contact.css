@@ -1,0 +1,209 @@
+@import 'default.css';
+
+
+body {
+  background-color: var(--black);
+  color: var(--gold);
+}
+
+.hero_container {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)),
+    url("../media/donate.jpg") center center;
+  background-size: cover;
+  padding: 2vw;
+  flex-direction: column;
+  display: flex;
+  align-items: flex-start;
+}
+
+.hero_container h1 {
+  font-size: 5vw;
+}
+
+.hero_container p {
+  color: var(--green);
+  font-size: 2vw;
+}
+
+.content p {
+  margin-bottom: .5rem;
+}
+
+.contact {
+  display: flex;
+  /* background: #00000075; */
+  /* flex-wrap: wrap; */
+  border-radius: 1rem;
+  margin: 1rem 0;
+  /* box-shadow: 0 5px 5px 0 #00000025; */
+}
+
+/* Styling the contact form. */
+.contact-form {
+  flex-basis: 60%; /* This will take the first 60% of the container. */
+  padding: 2rem 3rem;
+}
+
+/* Styling the contact information. */
+.contact-info {
+  flex-basis: 40%; /* This section will take the remaining 40% of the container. */
+  padding: 2rem 3rem;
+  border-radius: 1rem;
+}
+
+/* Styling the form and its contents. */
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.form-row .form-field {
+  flex-basis: 45%;
+}
+
+.error {
+  color: white;
+  border: 1px solid red;
+  background-color: rgba(255, 0, 0, 0.1);
+  padding: 5px;
+  border-radius: 5px;
+  display: none;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+/* Styling the elements of the form. */
+label {
+  display: block;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+
+input {
+  width: 100%;
+  border:none;
+  background-color: transparent;
+  border-bottom: 1px solid var(--accent-color);
+  outline: none;
+  padding-bottom: .5rem;
+  margin-bottom: 5px;
+  accent-color: var(--accent-color);
+}
+
+input[type], textarea[placeholder] {
+  color: var(--accent-color);
+}
+
+input[name="DOB"] {
+  flex-basis: 65%;
+}
+
+label.small {
+  display: flex;
+  justify-content: flex-start;
+  gap: 5px;
+}
+
+select {
+  background-color: transparent;
+  color: var(--accent-color);
+  padding: 5px;
+  border: 1px solid var(--accent-color);
+  margin-left: 10px;
+  border-radius: 5px;
+}
+
+fieldset {
+  margin-top: 20px;
+  padding: 20px;
+  border-color: var(--accent-color);
+}
+
+legend {
+  padding: 0 5px;
+}
+
+input[type="checkbox"] {
+  width: 15px;
+  height: 15px;
+}
+
+textarea {
+  width: 100%;
+  border: 1px solid var(--accent-color);
+  outline: none;
+  padding: .2rem;
+  background-color: transparent;
+  margin-bottom: 5px;
+}
+
+/* Styling the contact button on top of the page. */
+.static-button {
+  margin: 1rem 0;
+  background-color: var(--accent-color);
+  color: black;
+  float: right;
+}
+
+button.static-button:hover {
+  /*margin: 1rem 0;*/
+  background-color: transparent;
+  color: var(--accent-color);
+}
+
+/* Styling the send button of the form. */
+.send-button {
+  float: right;
+  background-color: transparent;
+  color: var(--accent-color);
+  border: 1px solid var(--accent-color);
+}
+
+.send-button:hover {
+  background-color: var(--accent-color);
+  color: black;
+}
+
+/* Styling the table containing contact info. */
+tr td {
+  vertical-align: top;
+  padding-top: 2rem;
+}
+
+tr td:first-child {
+  padding-right: 1rem;
+}
+
+tr td a:link {
+  color: black;
+  text-decoration: none;
+}
+
+.contact-info img {
+  border-radius: 10px;
+  margin-top: 30px;
+  transition: all 0.3s ease-in-out;
+}
+
+.contact-info img:hover {
+  box-shadow: 0 5px 5px 0 #00000075;
+}
+/* This will change and overwrite styles, when the width of the device is 900px or less. */
+@media (max-width: 900px) {
+  .contact-form {
+    flex-basis: 100%;
+  }
+
+  .form-row {
+    flex-direction: column;
+  }
+
+  .contact-info {
+    flex-basis: 100%;
+  }
+
+  input[type="date"] {
+    flex-basis: 40%;
+  }
+}

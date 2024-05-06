@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact</title>
+    <link href="css/contact.css" rel="stylesheet">
+  </head>
+  <body>
+  
+    <!-- nav bar -->
+    <nav>
+      <div class="left_half">
+        <a class="btn" href="/index.html">Bookminds</a>
+        <a class="btn" href="/about.html">About</a>
+        <a class="btn" href="/contact.html">Contact</a>
+      </div>
+      <div class="right_half">
+        <a class="btn" href="/donate.html">Donate</a>
+        <a class="btn" href="/resources.html">Resources</a>
+        <a class="btn" href="/events.html">Events</a>
+      </div>
+    </nav>
+
+    <div class="reading-progress">
+      <div class="reading-progress-bar" style="width: 0%;"></div>
+    </div>
+
+    <!-- Heading -->
+    <div class='hero_container'>
+      <h1 style='margin-top: 9vh;'>Contact us </h1>
+      <p>Please fill the form below to send us any queries that you might have.</p>
+      <!-- <a href="#donate_now" class="btn smooth_scroll">Donate now</a> -->
+    </div>
+
+    <div class="contact">
+      <div class="contact-form">
+        <h2>Type in your questions below.</h2>
+        <!-- This section contains the contact form. -->
+        <form id="form" name="contact">
+          <!-- The contents are arrange in rows of two column. -->
+          <div class="form-row">
+            <div class="form-field">
+              <label>First Name</label>
+              <input type="text" name="fname" placeholder="John">
+              <p class="fname error">Please type a valid First Name.</p>
+            </div>
+            <div class="form-field">
+              <label>Last Name</label>
+              <input type="text" name="lname" placeholder="Doe">
+              <p class="lname error">Please type a valid Last Name.</p>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-field">
+              <label>Email</label>
+              <input type="email" name="email" placeholder="johndoe@gmail.com">
+              <p class="email error">Please type a valid Email.</p>
+            </div>
+            <div class="form-field">
+              <label>Phone</label>
+              <input type="text" name="phone" placeholder="07XXXXXXXX">
+              <p class="phone error">Please type a valid Phone Number.</p>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-field">
+              <label class="small">
+                Date of Birth:
+                <input type="date" name="DOB">
+              </label>
+              <p class="dob error">Please enter a valid Date of Birth.</p>
+            </div>
+            <div class="form-field">
+              Gender:
+              <select name="gender">
+                <option selected value>SELECT...</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Non-binary">Non-binary</option>
+                <option value="Prefer not to say">Prefer not to say</option>
+              </select>
+            </div>
+          </div>
+          <!-- The fieldset element is used to highlight the actual message portion of the contact form. -->
+          <fieldset>
+            <legend>Contact:</legend>
+            <p>How do you like to hear back from us?</p>
+            <label class="small">
+              <input type="checkbox" name="Email">
+                Email
+            </label>
+            <label class="small">
+              <input type="checkbox" name="Phone">
+                Phone
+            </label>
+            <label>Subject</label>
+            <input type="text" name="subject" placeholder="Subject...">
+            <p class="subject error">The subject cannot be empty.</p>
+            <label>Message</label>
+            <textarea name="message" rows="5" placeholder="Message.."></textarea>
+            <p class="message error">The subject cannot be empty.</p>
+            <button type="submit" class="send-button">Send</button>
+          </fieldset>
+        </form>
+      </div>
+      <!-- This section contains the contact information of the website. -->
+      <div class="contact-info">
+        <h2>Contact Us</h2>
+        <!-- Nested list -->
+        <ul class="outer_list">
+          <li>
+            <p>Phone</p>
+            <ul class="inner_list">
+              <li>0712345678</li>
+              <li>0712345678</li>
+            </ul>
+          </li>
+          <li>
+            <p>Email</p>
+            <ul class="inner_list">
+              <li>someone@somewhere</li>
+              <li>someone@somewhere</li>
+            </ul>
+          </li>
+          <li>
+            <p>Address</p>
+            <ul class="inner_list">
+              <li>123 Main Street</li>
+              <li>123 Main Street</li>
+            </ul>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+
+		<!-- Footer Section -->
+		<footer>
+			<div class='footer_container'>
+				<!-- Social Media Icons -->
+				<div class='socials'>
+					<a href='https://facebook.com'>
+						<img src="./media/socials/outlined/facebook.svg" alt="facebook">
+					</a>
+					<a href='https://instagram.com'>
+						<img src="./media/socials/outlined/instagram.svg" alt="instagram">
+					</a>
+					<a href='https://youtube.com'>
+						<img src="./media/socials/outlined/youtube.svg" alt="youtube">
+					</a>
+					<a href='https://x.com'>
+						<img src="./media/socials/outlined/twitterx.svg" alt="twitterx">
+					</a>
+				</div>
+
+				<!-- Links -->
+				<div class='sites'>
+					<a href="#">Legal</a> | <a href="#">Privacy</a> | <a href="#">Contact</a> | <a href="#">About us</a>
+				</div>
+
+				<!-- Credits -->
+				<p>Icons by <a target="_blank" href="https://icons8.com">Icons8</a> | Copyright © BOOKMINDS 2023</p>
+			</div>
+		</footer>
+    <!-- JAVASCRIPTS -->
+    <script src="js/progress_bar.js"></script>
+    <script src="./js/smooth_scroll.js"></script>
+    <script src="./js/form.js"></script>
+  </body>
+</html>
