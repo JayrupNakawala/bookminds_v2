@@ -121,6 +121,18 @@ body {
   color: var(--black);
 }
 
+.payment a {
+  margin-top: 3vh;
+  padding: 1vh 1vw 0.7vh 1vw;
+  border-radius: 10px;
+  color: var(--brown);
+  border: 1px solid var(--brown);
+}
+
+.payment a:hover {
+  background-color: var(--brown);
+}
+
 .payment input:placeholder {
   color: var(--green);
 }
