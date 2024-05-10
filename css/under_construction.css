@@ -1,0 +1,33 @@
+@import 'default.css';
+
+.hero_container {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../media/under_construction.jpg") center center;
+  background-size: cover;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+h1 {
+  padding: 7vh 0 0 2vw;
+  font-size: 5vw;
+}
+
+h2 {
+  padding: 2vw;
+  font-size: 3vw;
+}
+
+.hero_container p {
+  margin: 0;
+  padding: 0 0 0 2vw;
+  font-size: 3vw;
+}
+
+.hero_container a {
+  text-align: justify;
+  padding: 0 0 0 2vw;
+  font-size: 3vw;
+}
