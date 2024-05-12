@@ -1,5 +1,6 @@
 @import 'default.css';
 
+/* applying the default styling to all html elements */
 body {
   overflow-x: hidden;
   padding: 0;
@@ -7,6 +8,7 @@ body {
   background-color: var(--black);
 }
 
+/* HERO SECTION */
 .hero_container {
   background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)),
     url("../media/donate.jpg") center center;
@@ -23,7 +25,6 @@ body {
   font-size: 5vw;
   padding: 2vw;
   color: var(--gold);
-  /* text-decoration: none; */
 }
 
 .hero_container h2 {
@@ -32,7 +33,6 @@ body {
   font-size: 4vw;
   padding: 2vw;
   color: var(--gold);
-  /* text-decoration: none; */
 }
 
 .hero_container a {
@@ -41,6 +41,7 @@ body {
   margin: 2vw;
 }
 
+/* SUBHEADING SECTION */
 .subheading_container {
   padding: 2vw;
   font-size: 2vw;
@@ -49,6 +50,7 @@ body {
   background-color: var(--orange);
 }
 
+/* MIDDLE SECTION */
 .middle_container {
   display: flex;
   justify-content: center;
@@ -77,6 +79,7 @@ body {
   margin-left: 1vw;
 }
 
+/* DONATE SECTION */
 .donate {
   background-color: var(--gold);
   padding: 2vw;
@@ -100,6 +103,7 @@ body {
   margin: 0 0 0 4vw;
 }
 
+/* styling the payment form */
 .donate .payment{
   display: flex;
   align-items: center;
@@ -111,6 +115,7 @@ body {
   color: var(--black);
 }
 
+/* styling the payment input */
 .payment input {
   width: 15vw;
   background-color: var(--gold);
@@ -131,8 +136,4 @@ body {
 
 .payment a:hover {
   background-color: var(--brown);
-}
-
-.payment input:placeholder {
-  color: var(--green);
 }

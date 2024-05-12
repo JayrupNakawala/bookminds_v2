@@ -1,5 +1,6 @@
 @import 'default.css';
 
+/* hero section */
 .hero_container {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url("../media/under_construction.jpg") center center;
@@ -20,12 +21,14 @@ h2 {
   font-size: 3vw;
 }
 
+/* styling the hero container text */
 .hero_container p {
   margin: 0;
   padding: 0 0 0 2vw;
   font-size: 3vw;
 }
 
+/* styling the hero container link */
 .hero_container a {
   width: 4vw;
   text-align: justify;

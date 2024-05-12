@@ -1,14 +1,14 @@
 @import 'default.css';
 
+/* applying the default styling to all html elements */
 body {
   background-color: var(--black);
   overflow-x: hidden;
   padding: 0;
   margin: 0;
-
 }
 
-
+/* HERO SECTION */
 .hero_container {
   display: flex;
   flex-direction: column;
@@ -19,6 +19,7 @@ body {
   height: 50vh;
 }
 
+/* changing the color of the heading text */
 .hero_container h1 {
   color: var(--gold);
   margin: 0;
@@ -26,10 +27,12 @@ body {
   font-size: 7vw;
 }
 
+/* changing the color of the subheading text */
 .hero_container a {
   padding-top: 2vw;
 }
 
+/* WHO ARE WE SECTION */
 .who_are_we {
   display: flex;
   flex-direction: column;
@@ -41,10 +44,12 @@ body {
   text-align: center;
 }
 
+
 .who_are_we h2 {
   margin: 0;
 }
 
+/* OUR CHARITY SECTION */
 .our_charity {
   display: flex;
   align-items: center;
@@ -54,7 +59,6 @@ body {
   font-size: 1.5vw;
   text-align: center;
 }
-
 
 .our_charity img {
   height: 30vw;

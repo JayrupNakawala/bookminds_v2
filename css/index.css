@@ -1,6 +1,7 @@
 @import 'default.css';
 @import url('https://fonts.googleapis.com/css2?family=Platypi:ital,wght@0,300..800;1,300..800&display=swap');
 
+/* applying the default styling to all html elements */
 body {
   font-family: "Platypi", serif;
   margin: 0;
@@ -9,6 +10,7 @@ body {
   overflow-x: hidden;
 }
 
+/* HERO SECTION */
 .hero_container {
   height: 100vh;
   width: 100vw;
@@ -17,10 +19,10 @@ body {
   background-size: cover;
   overflow: hidden;
   top: 0;
-  /* position: absolute; */
   top: 0;
 }
 
+/* styling the heading text */
 .platypi_bookminds {
   font-family: "Platypi", serif;
   font-weight: 700;
@@ -29,6 +31,7 @@ body {
   padding: 11vh 0 0 10vw;
 }
 
+/* styling the heading text */
 .hero_container .heading_text {
   font-family: "Platypi", serif;
   font-weight: 500;
@@ -37,6 +40,7 @@ body {
   padding: 3vh 0 0 10vw;
 }
 
+/* styling the main button */
 .main_btn{
   width: fit-content;
   text-decoration: none;
@@ -53,6 +57,7 @@ body {
 }
 
 
+/* styling the donate button */
 .donate_btn{
   color: white;
   font-size: 5vw;
@@ -66,6 +71,7 @@ body {
   background-color: var(--)
 }
 
+/* subheading section */
 .subheading_container {
   display: flex;
   align-items: center;
@@ -73,6 +79,7 @@ body {
   background-color: var(--black);
 }
 
+/* styling the subheading text */
 .subheading_text {
   display: flex;
   flex-direction: column;
@@ -80,15 +87,19 @@ body {
   font-size: 1.7vw;
 }
 
+/* styling the subheading heading */
 .subheading_text h1 {
   margin: 0;
   padding-bottom: 2vw;
 }
+
+/* styling the subheading image */
 .subheading_container img {
   height: 40vh;
   padding: 2vw;
 }
 
+/* QUOTES SECTION */
 .quotes_container {
   background-color: var(--gold);
   display: flex;
@@ -115,27 +126,30 @@ body {
   align-items: center;
 }
 
+/* styling the quote text */
 .quote_text {
   color: var(--black);
   width: 40vw;
   text-align: center;
 }
 
+/* styling the quote author */
 .quote_author {
   color: var(--black);
   font-style: oblique;
 }
 
+/* ANIMATION */
 @keyframes marquee {
   0% { transform: translateX(100%); } /* Start from right side */
  100% { transform: translateX(-100%); } /* Scroll to left side */
 }
 
+/* WHY WE LOVE READING SECTION */
 .why_we_love_reading {
   background-color: var(--black);
   height: 60vh;
   display: flex;
-  /* flex-direction: column; */
   align-items: center;
 }
 
@@ -143,6 +157,7 @@ body {
   padding: 2vw;
 }
 
+/* styling the content */
 .why_we_love_reading .content {
   display: flex;
   flex-direction: column;
@@ -157,19 +172,4 @@ body {
 .why_we_love_reading img {
   height: 40vh;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

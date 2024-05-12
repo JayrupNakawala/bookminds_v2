@@ -1,11 +1,13 @@
 @import 'default.css';
 
 
+/* applying the default styling to all html elements */
 body {
   background-color: var(--black);
   color: var(--gold);
 }
 
+/* HERO SECTION */
 .hero_container {
   background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)),
     url("../media/contact.jpg") center center;
@@ -16,10 +18,12 @@ body {
   align-items: flex-start;
 }
 
+/* changing font size of the heading text*/
 .hero_container h1 {
   font-size: 5vw;
 }
 
+/* changing color and font size of the subheading text */
 .hero_container p {
   color: var(--green);
   font-size: 2vw;
@@ -31,11 +35,8 @@ body {
 
 .contact {
   display: flex;
-  /* background: #00000075; */
-  /* flex-wrap: wrap; */
   border-radius: 1rem;
   margin: 1rem 0;
-  /* box-shadow: 0 5px 5px 0 #00000025; */
 }
 
 /* Styling the contact form. */
@@ -62,6 +63,7 @@ body {
   flex-basis: 45%;
 }
 
+/* styling for the error message */
 .error {
   color: white;
   border: 1px solid red;
@@ -80,6 +82,7 @@ label {
   margin-top: 5px;
 }
 
+/* Styling the input fields. */
 input {
   width: 100%;
   border:none;
@@ -99,12 +102,14 @@ input[name="DOB"] {
   flex-basis: 65%;
 }
 
+/* styling for the small inputs */
 label.small {
   display: flex;
   justify-content: flex-start;
   gap: 5px;
 }
 
+/* Styling the select tag. */
 select {
   background-color: transparent;
   color: var(--accent-color);
@@ -114,12 +119,14 @@ select {
   border-radius: 5px;
 }
 
+/* Styling the fieldset tag. */
 fieldset {
   margin-top: 20px;
   padding: 20px;
   border-color: var(--accent-color);
 }
 
+/* Styling the legend tag. */
 legend {
   padding: 0 5px;
 }
@@ -129,6 +136,7 @@ input[type="checkbox"] {
   height: 15px;
 }
 
+/* Styling the textarea tag. */
 textarea {
   width: 100%;
   border: 1px solid var(--accent-color);

@@ -1,10 +1,11 @@
 @import 'default.css';
 
+/* styling the background color */
 body {
   background-color: var(--black);
 }
 
-
+/* HERO SECTION */
 .hero_container {
   background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)),
     url("../media/resources.jpg") center center;
@@ -18,6 +19,7 @@ body {
   padding: 0 0 4vw 10vw;
 }
 
+/* SUBHEADING SECTION */
 .subheading_container {
   background-color: var(--black);
   display: flex;
@@ -27,6 +29,7 @@ body {
   justify-content: center;
 }
 
+/* styling the subheading link */
 .subheading_container a {
   text-decoration: underline;
   color: var(--gold);
@@ -37,6 +40,7 @@ body {
   color: white;
 }
 
+/* GETTING STARTED SECTION */
 .getting_started {
   display: flex;
   flex-direction: row;
@@ -45,6 +49,7 @@ body {
   background-color: var(--brown);
 }
 
+/* styling the getting started text */
 .getting_started_text {
   padding: 2vw;
   font-size: 2vw;
@@ -55,6 +60,7 @@ body {
   height: 40vh;
 }
 
+/* RECOMMENDATIONS SECTION */
 .recommendations {
   font-size: 2vw;
   display: flex;
@@ -66,11 +72,9 @@ body {
 
 td {
   text-align: center;
-  /* border: 1px solid var(--gold); */
 }
 
 table {
-  /* border-collapse: collapse; */
   width: 90%;
 }
 
@@ -87,6 +91,7 @@ hr {
   border: 1px solid var(--gold);
 }
 
+/* RESOURCES SECTION */
 .resources {
   padding: 2vw;
   font-size: 2vw;
@@ -100,6 +105,7 @@ hr {
   padding: 1vw;
 }
 
+/* styling the resources link */
 .resources a {
   text-decoration: none;
   color: var(--gold);
