@@ -3,7 +3,6 @@
 
 body {
   font-family: "Platypi", serif;
-  font-optical-sizing: auto;
   margin: 0;
   padding: 0;
   color: var(--gold);
@@ -24,7 +23,6 @@ body {
 
 .platypi_bookminds {
   font-family: "Platypi", serif;
-  font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
   font-size: 8vw;
@@ -33,7 +31,6 @@ body {
 
 .hero_container .heading_text {
   font-family: "Platypi", serif;
-  font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
   font-size: 2vw;
@@ -96,10 +93,9 @@ body {
   background-color: var(--gold);
   display: flex;
   align-items: center;
-  width: 100vw; /* Adjust width as needed */
+  width: 100vw; 
   height: 40vh;
   overflow: hidden;
-  /* white-space: nowrap; /* Prevent line breaks */ */
 }
 
 .quotes_container .quote {
