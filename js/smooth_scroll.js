@@ -8,7 +8,7 @@ smoothScrollLinks.forEach(link => {
 
     const scrollOptions = {
       behavior: "smooth",
-      block: "start" // Optionally adjust scroll position (start, center, end)
+      block: "start" 
     };
 
     targetSection.scrollIntoView(scrollOptions); // Smooth scroll to target
